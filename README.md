@@ -1,3 +1,4 @@
+```R
 library(gridGraphics)
 pushViewport(viewport(xscale=c(0, 1), yscale=c(0.5, 1),
              clip=TRUE))
@@ -65,3 +66,4 @@ grid.text("Once upon a time ...",
 popViewport()
 
 grid.rect()
+```
